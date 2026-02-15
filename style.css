@@ -1,0 +1,47 @@
+/* style.css */
+
+/* Set body background color to black */
+body {
+    background-color: black;
+    margin: 0;
+    color: #902C3E; 
+    height: 100vh; /* Make body take full viewport height */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+/* Add container to prevent image overflow */
+.container {
+    max-width: 80%; /* Adjust as needed */
+    max-height: 80vh; /* Adjust as needed */
+    overflow: auto;
+    display: flex; /* Use flexbox to arrange content vertically */
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+.container h1,h3{
+    text-align: center;
+}
+
+/* Style the select box */
+.select-box {
+    width: 200px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Add spacing below select box */
+}
+
+/* Style the image container */
+.image-container {
+    width: 100%; /* Ensure container spans full width */
+    text-align: center; /* Center images horizontally */
+}
+
+/* Style the image */
+#image {
+    width: 200px; /* Set fixed width for all images */
+    height: auto; /* Allow height to adjust proportionally */
+    margin-bottom: 20px; /* Add spacing below each image */
+}
