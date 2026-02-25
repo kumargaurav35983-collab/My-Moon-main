@@ -20,7 +20,7 @@ myMoon.addEventListener("change", ()=>{
             break;
         case "1080p":
             image.src="./static/1080p2.png";
-            moonText.innerText="It Really You";
+            moonText.innerText="It Really You 😍";
             break;
         default:
             break;
